@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="IBP-Style Planning Dashboard", layout="centered")
 
-st.title("IBP-Style Supply Chain Planning Tool (Simulation)")
+st.title("IBP-Style Supply Chain Planning Simulation Tool")
 st.write("Interactive simulation of demand, inventory, and replenishment decisions based on IBP-style planning logic.")
 
 st.header("Inputs")
