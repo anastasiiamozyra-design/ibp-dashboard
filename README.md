@@ -25,4 +25,4 @@ The tool shows the impact on:
 This project demonstrates how planning tool logic can be translated into a simple, interactive MVP that supports supply chain decision-making.
 
 ## Live app
-Streamlit link will be added here after deployment.
+https://ibp-dashboard.streamlit.app/
