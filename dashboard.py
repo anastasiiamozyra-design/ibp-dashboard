@@ -4,8 +4,8 @@ import pandas as pd
 
 st.set_page_config(page_title="IBP-Style Planning Dashboard", layout="centered")
 
-st.title("IBP-Style Planning Dashboard")
-st.write("Mini simulation of demand, inventory, and replenishment logic.")
+st.title("IBP-Style Supply Chain Planning Tool (Simulation)")
+st.write("Interactive simulation of demand, inventory, and replenishment decisions based on IBP-style planning logic.")
 
 st.header("Inputs")
 base_demand = st.slider("Average daily demand", min_value=50, max_value=200, value=100, step=5)
@@ -129,3 +129,9 @@ if view == "Before":
     st.dataframe(before_df, use_container_width=True)
 else:
     st.dataframe(after_df, use_container_width=True)
+
+st.header("Business interpretation")
+
+st.write("This tool demonstrates how demand variability and lead time impact service level and inventory decisions.")
+
+st.write("It reflects simplified planning logic used in tools such as SAP IBP or o9, where forecasting, safety stock, and replenishment decisions are integrated.")
